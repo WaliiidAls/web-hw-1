@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> WaliiidAls's TvTime </title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            .header {
+                display: flex;
+                padding: 50px;
+                background-image: linear-gradient(#cf7500, #fbd46d ) ;
+                flex-direction: row;
+                justify-content: space-between;
+                color: whitesmoke;
+            }
+            .body {
+                padding: 20px;
+                background-image: linear-gradient(#fbd46d, #cf7500);
+            }
+            footer {
+                display: block;
+                padding: 20px;
+                background-color: #393e46 ;
+                color: darkgray;
+                flex-direction: column;
+            }
+            a {
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 20px;
+                color:darkgray;
+            }
+            a:hover {
+                color: white;
+            }
+            .parafield {
+                margin: 0 50px 0 50px;
+                background-color: #f4f4f4;
+                border-radius: 10px;
+            }
+            img {
+                border-radius:  12px 12px 0 0 ;
+            }
+            .para {
+                padding: 30px;
+                text-align: left;
+                font-size: 30px;
+                color:black;
+            }
+            .card {
+                background-color: #f3c623;
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+                width: 100px;
+                transition: 0.3s ease;
+                margin: 20px;
+                border-radius: 12px;
+                color: white;
+            }
+            .card:hover {
+                background-color: white;
+                color: #f3c623;
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            }
+            .cardbody {
+                text-align: center;
+            }
+            .cardtext {
+                font-size: 10px;
+            }
+            .allcards {
+                display: flex;
+                flex-direction: row;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- HEADER | STARTS -->
+        <div class="header">
+            <img src="/Users/waliiidals/Documents/GitHub/web-hw-1/assets/ProfilePic.jpeg" width=50px style="border-radius: 50px;">
+            <h1> WaliiidAls's Profile </h1>
+            <a href="https://www.Netflix.com" target="_blank">
+                <img src="/Users/waliiidals/Documents/GitHub/web-hw-1/assets/Netflix.png" width=55px>
+            </a>
+            <a href="https://www.instagram.com/waliiidals/" target="_blank">
+                <img src="/Users/waliiidals/Documents/GitHub/web-hw-1/assets/instagram.png" width=55px>
+            </a>
+            <a href="https://twitter.com/WaliiidAls" target="_blank">
+                <img src="/Users/waliiidals/Documents/GitHub/web-hw-1/assets/twitter.png" width=55px>
+            </a>
+        </div>
+        <!-- HEADER | END -->
+        <!-- BODY | START -->
+        <div class="body">
+            <div class="parafield">
+                <!-- FAV | START -->
+                <p class="para">
+                    <img src="/Users/waliiidals/Documents/GitHub/web-hw-1/assets/star.png" width=25px>
+                    <b>Favorite shows</b>
+                </p>
+                <div class="allcards">
+                    <div class="card">
+                        <img src="/Users/waliiidals/Documents/GitHub/web-hw-1/assets/Dark.jpg" width=100px>
+                        <div class="cardbody">
+                            <h4>Dark</h4>
+                            <p class="cardtext">
+                                mystery
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/Users/waliiidals/Documents/GitHub/web-hw-1/assets/Friends.jpg" width=100px>
+                        <div class="cardbody">
+                            <h4>Friends</h4>
+                            <p class="cardtext">
+                                comedy
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/Users/waliiidals/Documents/GitHub/web-hw-1/assets/CarnivalRow.jpg" width=100px>
+                        <div class="cardbody">
+                            <h5>Carnival Row</h5>
+                            <p class="cardtext">
+                                fantasy
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/Users/waliiidals/Documents/GitHub/web-hw-1/assets/HTGAWM.jpg" width=100px>
+                        <div class="cardbody">
+                            <h6>How to get away...</h6>
+                            <p class="cardtext">
+                                mystery
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/Users/waliiidals/Documents/GitHub/web-hw-1/assets/You.jpg" width=100px>
+                        <div class="cardbody">
+                            <h4>You</h4>
+                            <p class="cardtext">
+                                thirller
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/Users/waliiidals/Documents/GitHub/web-hw-1/assets/Boys.jpg" width=100px>
+                        <div class="cardbody">
+                            <h5>The Boys</h5>
+                            <p class="cardtext">
+                                superhero
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- FAV | END -->
+                <!-- REC | START -->
+                <p class="para">
+                    <img src="/Users/waliiidals/Documents/GitHub/web-hw-1/assets/clock.png" width=25px>
+                    <b>Recently watched</b>
+                </p>
+                <div class="allcards">
+                    <div class="card">
+                        <img src="/Users/waliiidals/Documents/GitHub/web-hw-1/assets/HDM.jpg" width=100px>
+                        <div class="cardbody">
+                            <h6>His Dark Materials</h6>
+                            <p class="cardtext">
+                                fantasy
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/Users/waliiidals/Documents/GitHub/web-hw-1/assets/TheAct.jpg" width=100px>
+                        <div class="cardbody">
+                            <h5>The Act</h5>
+                            <p class="cardtext">
+                                drama
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/Users/waliiidals/Documents/GitHub/web-hw-1/assets/LockedUp.jpg" width=100px style="">
+                        <div class="cardbody">
+                            <h4>Vis a Vis</h4>
+                            <p class="cardtext">
+                                thirller
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/Users/waliiidals/Documents/GitHub/web-hw-1/assets/Lucifer.jpg" width=100px style="">
+                        <div class="cardbody">
+                            <h4>Lucifer</h4>
+                            <p class="cardtext">
+                                fantasy
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/Users/waliiidals/Documents/GitHub/web-hw-1/assets/Vikings.jpg" width=100px style="">
+                        <div class="cardbody">
+                            <h4>Vikings</h4>
+                            <p class="cardtext">
+                                history
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/Users/waliiidals/Documents/GitHub/web-hw-1/assets/Peakys.jpg" width=100px style="">
+                        <div class="cardbody">
+                            <h5>Peaky Blinders</h5>
+                            <p class="cardtext">
+                                crime
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/Users/waliiidals/Documents/GitHub/web-hw-1/assets/TMS.jpg" width=100px>
+                        <div class="cardbody">
+                            <h6>The Morning Show</h6>
+                            <p class="cardtext">
+                                drame
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/Users/waliiidals/Documents/GitHub/web-hw-1/assets/Watchmen.jpg" width=100px>
+                        <div class="cardbody">
+                            <h5>The Watchmen</h5>
+                            <p class="cardtext">
+                                superhero 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/Users/waliiidals/Documents/GitHub/web-hw-1/assets/THOHH.jpg" width=100px>
+                        <div class="cardbody">
+                            <h6>The hunting of hill...</h6>
+                            <p class="cardtext">
+                                horror
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- REC | END -->
+            </div>
+        </div>
+        <!-- BODY | END -->
+        <!-- FOOTER | START -->
+        <footer>
+            <a href="about.html">
+                About
+            </a>
+            <br>
+            <br>
+            <h2 style="color: black;">Contact</h2>
+            <ul style="list-style-type: dash; padding: 0 0 0 25px;">
+                <li>
+                    <a href="tel:+96596611038" style="align-self: center;">
+                        Phone
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:waliiidals@hotmail.com">
+                        Email
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </body>
+</html>
